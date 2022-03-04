@@ -82,7 +82,7 @@ code{
 }
 .spotlight-image img{
     width: 100%;
-    height: 95%;
+    height: 100%;
     object-fit:cover;
 }
 .heading-two{
@@ -115,3 +115,35 @@ code{
     color: #47D3E5;
     border: 2px solid #47D3E5;
 }
+.third-section{
+    display: flex;
+    min-height: 55vh;
+}
+.child-third-section{
+    width: 40%;
+}
+.text-area-three{
+    display:flex ;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 100px;
+    padding: 40px;
+    flex: 1;
+}
+.wolf-image img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+} 
+.fourth-section{
+    display: flex;
+    min-height: 45vh;
+}
+.child-fourth-section{
+    width:40%;
+}
+.landscape-image img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+} 
