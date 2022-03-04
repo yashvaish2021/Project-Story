@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro',sans-serif;
+}
+.first-section{
+    display: flex;
+    height: 100vh;
+}
+.child-first-section{
+    text-align: left;
+    width: 50%;
+}
+.container-one{
+    padding: 24px;
+}
+.heading-one{
+    color: black;
+    font-size: 56px;
+    font-weight: 500;
+}
+.text-area-one{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.para-intro{
+    font-size: 24px;
+    color: #676d79;
+    line-height: 40px;
+
+}
+.para-description{
+    font-size: 20px;
+    color: #676d79;
+    line-height: 30px;
+}
+.hove{
+    color: #676d79;
+}
+code{
+    font-family: "Courier New", monospace;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.btn{
+    border: 2px solid lightslategray;
+    border-radius: 50px;
+    text-decoration: none;
+    align-self: flex-start;
+    padding: 20px 40px;
+    font-size: 20px;
+    color: black;
+}
+.image-area img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hove:hover{
+    color: #47D3E5;
+    text-decoration: none;
+
+}
+.btn:hover{
+    color: #47D3E5;
+    border: 2px solid #47D3E5;
+}
+.horizontal-rule{
+    border-top: 0.5px solid lightgray;
+}
+.second-section{
+    display:flex;
+    min-height: 75vh;
+}
+.child-second-section{
+    width:40%;
+
+}
+.spotlight-image img{
+    width: 100%;
+    height: 95%;
+    object-fit:cover;
+}
+.heading-two{
+    color: black;
+    font-size: 40px;
+    font-weight: 400;
+}
+.text-area-two{
+    display:flex ;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 100px;
+    padding: 40px;
+    flex: 1;
+}
+.container-two{
+    padding: 24px;
+}
+.btns{
+    text-decoration: none;
+    border: 2px solid lightgray;
+    border-radius: 50px;
+    font-size: 14px;
+    color: #676d79;
+    padding: 10px 30px;
+    align-self:flex-start ;
+    letter-spacing: 2px;
+}
+.btns:hover{
+    color: #47D3E5;
+    border: 2px solid #47D3E5;
+}
