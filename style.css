@@ -17,7 +17,7 @@
 }
 .heading-one{
     color: black;
-    font-size: 56px;
+    font-size: 63px;
     font-weight: 500;
 }
 .text-area-one{
@@ -74,7 +74,7 @@ code{
 }
 .second-section{
     display:flex;
-    min-height: 75vh;
+    min-height: 55vh;
 }
 .child-second-section{
     width:40%;
@@ -137,7 +137,7 @@ code{
 } 
 .fourth-section{
     display: flex;
-    min-height: 45vh;
+    min-height: 55vh;
 }
 .child-fourth-section{
     width:40%;
