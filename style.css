@@ -150,3 +150,37 @@ code{
     height: 100%;
     object-fit:cover;
 } 
+.fifth-section{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    min-height: 45vh;
+}
+.gallery-desc{
+    font-size:20px ;
+    line-height: 30px;
+}
+.fifth-section-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 35vh;
+    
+}
+/* .image-grid{
+    flex: 25%;
+} */
+.grid{
+    width: 100%;
+}
+.items-desc{
+    font-size:20px;
+    line-height: 30px;
+}
+.parent-div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: ;
+}
