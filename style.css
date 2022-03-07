@@ -47,14 +47,15 @@ code{
     background-color: rgba(0, 0, 0, 0.05);
 }
 .btn{
-    border: 2px solid lightslategray;
+    border: 2px solid lightgray;
     border-radius: 50px;
     text-decoration: none;
     align-self: flex-start;
     padding: 20px 40px;
-    font-size: 20px;
+    font-size: 15px;
     color: black;
     letter-spacing: 2px;
+    font-weight: 600;
 }
 .image-area img{
     width:100%;
@@ -107,10 +108,11 @@ code{
     border: 2px solid lightgray;
     border-radius: 50px;
     font-size: 14px;
-    color: #676d79;
-    padding: 10px 30px;
+    color: black;
+    padding: 16px 30px;
     align-self:flex-start ;
     letter-spacing: 2px;
+    font-weight: 600;
 }
 .btns:hover{
     color: #47D3E5;
