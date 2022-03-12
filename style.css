@@ -187,17 +187,23 @@ code{
     background: lightgray;
     color: black;
     /* padding: 20px; */
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 250px;
+    margin-right: 250px;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(4,auto);
-    grid-auto-rows: 300px;
-    grid-gap: 2px;
+    grid-auto-rows: 400px;
+    grid-gap: 1px;
 }
 .parent-div > div{
-    padding: 40px;
-    font-size: 20px;
+    padding: 50px;
     background-color: white;
-
-
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.intro{
+    font-size: 32px;
+}
+.desc{
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 1px;
 }
