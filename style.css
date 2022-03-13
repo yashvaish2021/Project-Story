@@ -76,7 +76,7 @@ code{
 }
 .second-section{
     display:flex;
-    min-height: 55vh;
+    min-height: 45vh;
 }
 .child-second-section{
     width:40%;
@@ -120,7 +120,7 @@ code{
 }
 .third-section{
     display: flex;
-    min-height: 55vh;
+    min-height: 35vh;
 }
 .child-third-section{
     width: 40%;
@@ -183,7 +183,7 @@ code{
 .parent-div{
     display: grid;
     text-align: center;
-    max-width 500px; 
+    max-width:500 px; 
     background: lightgray;
     color: black;
     /* padding: 20px; */
@@ -207,3 +207,4 @@ code{
     line-height: 30px;
     letter-spacing: 1px;
 }
+
